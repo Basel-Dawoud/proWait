@@ -76,8 +76,8 @@ Child with PID 12347 exited with status 44
 ## Acknowledgements
 - [Linux Signals Documentation](https://man7.org/linux/man-pages/man7/signal.7.html) for signal handling and `sigaction()`.
 - [C Programming](https://www.cprogramming.com/) for general C programming resources.
-```
-Contact
+
+## Contact
 
 If you have any questions or suggestions, feel free to contact me at:
 
