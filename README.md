@@ -1,5 +1,3 @@
-# proWait
-
 # Non-Blocking Wait with Signal Handling
 
 ## Overview
