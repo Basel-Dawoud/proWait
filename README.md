@@ -11,18 +11,7 @@ The program uses `SIGCHLD` signals and `sigaction()` to handle child termination
 - **Prevention of Zombie Processes**: The program uses `waitpid()` with `WNOHANG` to avoid zombie processes by ensuring the parent process reaps child processes immediately when they terminate.
 - **Custom Exit Statuses**: Each child process exits with a unique status, which is reported by the parent process.
 
-## Installation and Usage
-
-To compile and run this program, you'll need a Linux-based system with a C compiler (`gcc`) installed.
-
-### Clone the repository
-
-Clone this repository to your local machine:
-
-```bash
-git clone https://github.com/yourusername/non-blocking-wait.git
-cd non-blocking-wait
-```
+## Usage
 
 ### Compile the code
 
